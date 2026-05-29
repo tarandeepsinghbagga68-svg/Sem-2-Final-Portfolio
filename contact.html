@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ============================================================
+       contact.html — Contact | Tarandeep Singh | MG & VFX Artist
+       ============================================================ -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Tarandeep Singh — Motion Graphics & VFX Artist</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ═══════════════════════ NAVBAR ═══════════════════════════ -->
+<nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">TARANDEEP SINGH<span>&nbsp;</span></a>
+    <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+      <ul class="navbar-nav gap-1">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══════════════════════ PAGE HERO ════════════════════════ -->
+<section class="page-hero">
+  <img src="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=1600&q=80" alt="Contact Hero" />
+  <div class="hero-content">
+    <p class="small-cap mb-3">Let's Connect</p>
+    <h1>Get In <span>Touch</span></h1>
+    <nav aria-label="breadcrumb" class="mt-2">
+      <ol class="breadcrumb mb-0">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item active">Contact</li>
+      </ol>
+    </nav>
+  </div>
+</section>
+
+<!-- ═══════════════════════ CONTACT MAIN ════════════════════ -->
+<section class="section-pad bg-dark3">
+  <div class="container">
+    <div class="text-center mb-5 reveal">
+      <p class="small-cap">Reach Out</p>
+      <h2 class="section-title">Let's Work Together</h2>
+      <div class="cyan-line center"></div>
+      <p style="color:var(--text-muted);max-width:520px;margin:0 auto;">
+        Have a project, a question, or just want to say hello? Fill out the form and I'll get back to you as soon as possible.
+      </p>
+    </div>
+
+    <div class="row g-5">
+
+      <!-- Contact Form -->
+      <div class="col-lg-7 reveal">
+        <div class="contact-form-wrap">
+          <h5 style="font-family:var(--font-head);font-size:0.95rem;letter-spacing:0.08em;color:var(--white);margin-bottom:28px;">
+            <i class="fa fa-paper-plane me-2 text-cyan"></i>Send a Message
+          </h5>
+
+          <form id="contactForm" novalidate>
+            <div class="row g-4">
+
+              <!-- Name -->
+              <div class="col-sm-6">
+                <label for="contactName" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="contactName"
+                       placeholder="Your full name" required />
+              </div>
+
+              <!-- Email -->
+              <div class="col-sm-6">
+                <label for="contactEmail" class="form-label">Email Address</label>
+                <input type="gmail" class="form-control" id="contactGmail"
+                       placeholder="your@gmail.com" required />
+              </div>
+
+              <!-- Subject -->
+              <div class="col-12">
+                <label for="contactSubject" class="form-label">Subject</label>
+                <input type="text" class="form-control" id="contactSubject"
+                       placeholder="Project inquiry / Collaboration / General" required />
+              </div>
+
+              <!-- Service -->
+              <div class="col-12">
+                <label for="contactService" class="form-label">Service Needed</label>
+                <select class="form-control" id="contactService">
+                  <option value="" disabled selected>Select a service…</option>
+                  <option>Graphic Design / Logo</option>
+                  <option>2D Animation</option>
+                  <option>Motion Graphics</option>
+                  <option>Video Editing</option>
+                  <option>VFX / Compositing</option>
+                  <option>Full Brand Identity</option>
+                  <option>Other</option>
+                </select>
+              </div>
+
+              <!-- Message -->
+              <div class="col-12">
+                <label for="contactMessage" class="form-label">Message</label>
+                <textarea class="form-control" id="contactMessage" rows="5"
+                          placeholder="Tell me about your project, timeline, and budget…" required></textarea>
+              </div>
+
+              <!-- Submit -->
+              <div class="col-12">
+                <button type="submit" class="btn-cyan w-100" style="padding:15px;font-size:0.8rem;">
+                  <span>Send Message &nbsp;<i class="fa fa-paper-plane"></i></span>
+                </button>
+              </div>
+
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Contact Info Sidebar -->
+      <div class="col-lg-5 reveal">
+
+        <p class="small-cap mb-3">Direct Contact</p>
+        <h5 style="font-family:var(--font-head);font-size:1rem;color:var(--white);margin-bottom:24px;">Contact Information</h5>
+
+        <!-- Email -->
+        <div class="contact-info-card d-flex align-items-center gap-3 mb-3">
+          <div class="ci-icon"><i class="fa fa-envelope"></i></div>
+          <div>
+            <h6>Email Address</h6>
+            <p><a href="mailto:tarandeep@email.com" style="color:var(--text)">tarandeepsinghbagga68@gmail.com</a></p>
+          </div>
+        </div>
+
+        <!-- Location -->
+        <div class="contact-info-card d-flex align-items-center gap-3 mb-3">
+          <div class="ci-icon"><i class="fa fa-map-marker-alt"></i></div>
+          <div>
+            <h6>Location</h6>
+            <p>Delhi,India</p>
+          </div>
+        </div>
+
+        <!-- Availability -->
+        <div class="contact-info-card d-flex align-items-center gap-3 mb-3">
+          <div class="ci-icon"><i class="fa fa-circle-check"></i></div>
+          <div>
+            <h6>Availability</h6>
+            <p>Open to Freelance &amp; Remote Work</p>
+          </div>
+        </div>
+
+        <!-- Response Time -->
+        <div class="contact-info-card d-flex align-items-center gap-3 mb-5">
+          <div class="ci-icon"><i class="fa fa-clock"></i></div>
+          <div>
+            <h6>Response Time</h6>
+            <p>Within 24–48 Hours</p>
+          </div>
+        </div>
+
+        <!-- Social Media -->
+        <p class="small-cap mb-3">Follow My Work</p>
+        <div class="d-flex flex-wrap gap-2 mb-4">
+         <a href="https://www.instagram.com/tarandeep.__.singh?igsh=MXJ6MWxtdXFrbXBkdg=="<i class="fab"></i></a>
+              <a href="https://www.instagram.com/tarandeep.__.singh?igsh=MXJ6MWxtdXFrbXBkdg==" <i class="fab fa-instagram"></i> Instagram
+          </a>
+        
+          </a>
+         <a href="https://youtube.com/@taranvfxstudio?si=w1SYg95NyF1XuVQJ" <i class="fab fa-youtube"></i> Youtube
+          </a>
+          
+          </a>
+        </div>
+
+        <!-- Quick facts -->
+        <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:22px;">
+          <h6 style="font-family:var(--font-head);font-size:0.8rem;color:var(--cyan);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:14px;">
+            <i class="fa fa-star me-1"></i> Quick Facts
+          </h6>
+          <ul class="list-unstyled mb-0" style="font-size:0.88rem;color:var(--text-muted);">
+            <li class="mb-2"><i class="fa fa-check me-2 text-cyan"></i>Best Student Award Recipient</li>
+            <li class="mb-2"><i class="fa fa-check me-2 text-cyan"></i>Emerging Graphics Designer Award</li>
+            <li class="mb-2"><i class="fa fa-check me-2 text-cyan"></i>Freelance Brand Designer (2026)</li>
+            <li class="mb-2"><i class="fa fa-check me-2 text-cyan"></i>Adobe Creative Suite Proficient</li>
+            <li><i class="fa fa-check me-2 text-cyan"></i>12th Pass — 78%</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ MAP PLACEHOLDER ══════════════════ -->
+<section class="py-5 bg-dark2">
+  <div class="container">
+    <div class="text-center mb-4 reveal">
+      <p class="small-cap">Location</p>
+      <h2 class="section-title">Find Me Here</h2>
+      <div class="cyan-line center"></div>
+    </div>
+    <div class="reveal">
+      <div class="map-placeholder">
+        <i class="fa fa-map-location-dot"></i>
+        <p style="font-family:var(--font-head);font-size:0.85rem;letter-spacing:0.1em;color:var(--text-muted);text-transform:uppercase;z-index:1;">
+          India — Available Remotely Worldwide
+        </p>
+        <p style="font-size:0.8rem;color:var(--text-muted);z-index:1;">
+          Open to remote collaboration globally
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ FAQ / CTA ════════════════════════ -->
+<section class="section-pad bg-dark3">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-5 reveal">
+        <p class="small-cap">Common Questions</p>
+        <h2 class="section-title mb-3">Frequently Asked</h2>
+        <div class="cyan-line"></div>
+        <p style="color:var(--text-muted);">
+          Here are a few things clients often ask before starting a project with me.
+        </p>
+      </div>
+      <div class="col-lg-7 reveal">
+        <!-- Accordion -->
+        <div class="accordion" id="faqAccordion">
+
+          <div class="accordion-item" style="background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);margin-bottom:10px;">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed"
+                      style="background:var(--card-bg);color:var(--text);font-family:var(--font-head);font-size:0.85rem;letter-spacing:0.05em;box-shadow:none;"
+                      type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                What services do you offer?
+              </button>
+            </h2>
+            <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body" style="color:var(--text-muted);font-size:0.9rem;">
+                I offer Graphic Design, Logo Design, 2D Animation, Motion Graphics, Video Editing, VFX Compositing, and full Brand Identity packages.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item" style="background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);margin-bottom:10px;">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed"
+                      style="background:var(--card-bg);color:var(--text);font-family:var(--font-head);font-size:0.85rem;letter-spacing:0.05em;box-shadow:none;"
+                      type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                Are you available for remote work?
+              </button>
+            </h2>
+            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body" style="color:var(--text-muted);font-size:0.9rem;">
+                Yes! I'm fully available for remote freelance work and online collaboration with clients worldwide.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item" style="background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);margin-bottom:10px;">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed"
+                      style="background:var(--card-bg);color:var(--text);font-family:var(--font-head);font-size:0.85rem;letter-spacing:0.05em;box-shadow:none;"
+                      type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                What software do you use?
+              </button>
+            </h2>
+            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body" style="color:var(--text-muted);font-size:0.9rem;">
+                My primary tools are Adobe Photoshop, Illustrator, After Effects, Premiere Pro, InDesign, and Animator — the full Adobe Creative Suite.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item" style="background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed"
+                      style="background:var(--card-bg);color:var(--text);font-family:var(--font-head);font-size:0.85rem;letter-spacing:0.05em;box-shadow:none;"
+                      type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                How quickly do you respond?
+              </button>
+            </h2>
+            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body" style="color:var(--text-muted);font-size:0.9rem;">
+                I typically respond to all inquiries within 24–48 hours. For urgent projects, feel free to mention the deadline in your message.
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ FOOTER ═══════════════════════════ -->
+<footer>
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <div class="footer-brand">TARANDEEP SINGH<span>&nbsp;</span></div>
+        <p class="mb-3">Motion Graphics &amp; VFX Artist crafting cinematic visuals with the Adobe Creative Suite.</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/tarandeep.__.singh?igsh=MXJ6MWxtdXFrbXBkdg==" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.behance.net/tarandeepsingh50" title="Instagram"><i class="fab fa-behance-square"></i></a>
+          <a href="https://youtube.com/@taranvfxstudio?si=w1SYg95NyF1XuVQJ" title="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.linkedin.com/in/tarandeep-singh-undefined-9b086539a/" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <h6 style="font-family:var(--font-head);font-size:0.8rem;letter-spacing:0.12em;color:var(--white);margin-bottom:18px;">QUICK LINKS</h6>
+        <ul class="list-unstyled" style="font-size:0.9rem;">
+          <li class="mb-2"><a href="index.html" style="color:var(--text-muted)"><i class="fa fa-chevron-right me-2" style="font-size:0.65rem;color:var(--cyan)"></i>Home</a></li>
+          <li class="mb-2"><a href="about.html" style="color:var(--text-muted)"><i class="fa fa-chevron-right me-2" style="font-size:0.65rem;color:var(--cyan)"></i>About</a></li>
+          <li class="mb-2"><a href="portfolio.html" style="color:var(--text-muted)"><i class="fa fa-chevron-right me-2" style="font-size:0.65rem;color:var(--cyan)"></i>Portfolio</a></li>
+          <li class="mb-2"><a href="contact.html" style="color:var(--text-muted)"><i class="fa fa-chevron-right me-2" style="font-size:0.65rem;color:var(--cyan)"></i>Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <h6 style="font-family:var(--font-head);font-size:0.8rem;letter-spacing:0.12em;color:var(--white);margin-bottom:18px;">CONTACT INFO</h6>
+        <p class="mb-2" style="font-size:0.9rem;color:var(--text-muted);"><i class="fa fa-envelope me-2 text-cyan"></i>tarandeepsinghbagga68@gmail.com</p>
+        <p class="mb-2" style="font-size:0.9rem;color:var(--text-muted);"><i class="fa fa-map-marker-alt me-2 text-cyan"></i>Delhi,India</p>
+        <p style="font-size:0.9rem;color:var(--text-muted);"><i class="fa fa-briefcase me-2 text-cyan"></i>Available for Freelance</p>
+      </div>
+    </div>
+    <div class="footer-copy text-center">
+      <p class="mb-0">&copy; 2026 Mr. Tarandeep Singh. All Rights Reserved. Designed with <i class="fa fa-heart text-cyan"></i> for Motion &amp; VFX.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap 5 JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Custom JS -->
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ============================================================
+       portfolio.html — Portfolio | Tarandeep Singh | MG & VFX Artist
+       ============================================================ -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Tarandeep Singh — Motion Graphics & VFX Artist</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+<script src="../Scripts/swfobject_modified.js"></script>
+</head>
+<body>
+
+<!-- ═══════════════════════ NAVBAR ═══════════════════════════ -->
+<nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">TARANDEEP SINGH&nbsp;<span>&nbsp;</span></a>
+    <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+      <ul class="navbar-nav gap-1">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══════════════════════ PAGE HERO ════════════════════════ -->
+<section class="page-hero">
+  <img src="https://images.unsplash.com/photo-1542744094-3a31f272c490?w=1600&q=80" alt="Portfolio Hero" />
+  <div class="hero-content">
+    <p class="small-cap mb-3">Creative Work</p>
+    <h1>My <span>Portfolio</span></h1>
+    <nav aria-label="breadcrumb" class="mt-2">
+      <ol class="breadcrumb mb-0">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item active">Portfolio</li>
+      </ol>
+    </nav>
+  </div>
+</section>
+
+<!-- ═══════════════════════ PORTFOLIO TABS ═══════════════════ -->
+<section class="section-pad bg-dark3">
+  <div class="container">
+
+    <div class="text-center mb-5 reveal">
+      <p class="small-cap">My Creative Output</p>
+      <h2 class="section-title">Selected Works</h2>
+      <div class="cyan-line center"></div>
+      <p style="color:var(--text-muted);max-width:300px;margin:0 auto;">
+        Browse my work across graphic design, video editing,animation and vfx — each project crafted with purpose.
+      </p>
+    </div>
+
+    <!-- Bootstrap Tabs -->
+    <ul class="nav portfolio-tabs justify-content-center reveal" id="portfolioTabs" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="graphics-tab"
+                data-bs-toggle="tab" data-bs-target="#graphics"
+                type="button" role="tab">
+          <i class="fa fa-pen-nib me-2"></i>Graphics
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="editing-tab"
+                data-bs-toggle="tab" data-bs-target="#VFX"
+                type="button" role="tab">
+          <i class="fa fa-scissors me-2"></i>VFX AND ANIMATION
+        </button>
+      </li>
+     
+
+    </ul>
+
+    <!-- Tab Content -->
+    <div class="tab-content" id="portfolioTabContent">
+
+      <!-- ── GRAPHICS TAB ─────────────────────────────────── -->
+      <div class="tab-pane fade show active" id="graphics" role="tabpanel">
+        <div class="row g-4">
+
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="gallery-item"> <a href="Images/workspace.png"><img src="Images/workspace.png" alt="ABCD Brand Logo" /></a>
+              <div class="gallery-overlay"><i class="fa fa-eye"></i></div>
+              <div class="gallery-label">
+                <span class="small-cap" style="font-size:0.65rem;">Workspace</span>
+                <div style="font-weight:600;">ABCD Brand Identity</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="gallery-item"> <a href="Images/Logo Design.jpg"><img src="Images/Logo Design.jpg" alt="Poster Design" /></a>
+              <div class="gallery-overlay"><i class="fa fa-eye"></i></div>
+              <div class="gallery-label">
+                <span class="small-cap" style="font-size:0.65rem;">Logo Design</span>
+                <div style="font-weight:600;">Event Poster Design</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="gallery-item">
+              <img src="Images/rendering.png" alt="Brand Stationery" />
+              <div class="gallery-overlay"><i class="fa fa-eye"></i></div>
+              <div class="gallery-label">
+                <span class="small-cap" style="font-size:0.65rem;">Rendering</span>
+                <div style="font-weight:600;">Corporate Stationery Kit</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="gallery-item">
+              <img src="Images/Buisness Card.png" alt="Social Media Graphics" />
+              <div class="gallery-overlay"><i class="fa fa-eye"></i></div>
+              <div class="gallery-label">
+                <span class="small-cap" style="font-size:0.65rem;">Buisness Card</span>
+                <div style="font-weight:600;">Instagram Content Pack</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="gallery-item">
+              <img src="Images/Product Mockups.jpeg"alt="Typography Art" />
+              <div class="gallery-overlay"><i class="fa fa-eye"></i></div>
+              <div class="gallery-label">
+                <span class="small-cap" style="font-size:0.65rem;">Product Mockups</span>
+                <div style="font-weight:600;">Typographic Art Series</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="gallery-item">
+              <img src="Images/instagrAM POST.jpeg"alt="Illustration" />
+              <div class="gallery-overlay"><i class="fa fa-eye"></i></div>
+              <div class="gallery-label">
+                <span class="small-cap" style="font-size:0.65rem;">Illustration</span>
+                <div style="font-weight:600;">Digital Illustration Work</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+<br>
+  <div class="tab-pane fade" id="VFX" role="tabpanel">
+        <div class="row g-4">
+
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="gallery-item">
+              <a href="https://youtu.be/lq5lFWc42cc" target="_blank" title="Open YouTube" style="display:block;">
+    <img src="https://img.youtube.com/vi/lq5lFWc42cc/hqdefault.jpg"
+         alt="YouTube Thumbnail"
+         style="width:100%; border-radius:10px; cursor:pointer;"><br>
+
+</a>
+              <div class="gallery-overlay"><i class="fa fa-play"></i></div>
+              <div class="gallery-label">
+                <span class="small-cap" style="font-size:0.65rem;">Double Role</span>
+                <div style="font-weight:600;"></div>
+              </div>
+            </div>
+			  <a href="https://youtu.be/lq5lFWc42cc">Link</a>
+          </div>
+
+         <div class="col-md-6 col-lg-4 reveal">
+            <div class="gallery-item">
+              <a href=""https://youtu.be/jUjTL1KZipE"" target="_blank" title="Open YouTube" style="display:block;">
+    <img src="https://img.youtube.com/vi/jUjTL1KZipE/hqdefault.jpg"
+         alt="YouTube Thumbnail"
+         style="width:100%; border-radius:10px; cursor:pointer;"><br>
+
+</a>
+              <div class="gallery-overlay"><i class="fa fa-play"></i></div>
+              <div class="gallery-label">
+                <span class="small-cap" style="font-size:0.65rem;">Matte Painting</span>
+                <div style="font-weight:600;"></div>
+              </div>
+            </div>
+			  <a href="https://youtu.be/jUjTL1KZipE">Link</a>
+          </div>
+
+
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="gallery-item">
+              <a href="https://youtu.be/nH9hHtR8cvc" target="_blank" title="Open YouTube" style="display:block;">
+    <img src="https://img.youtube.com/vi/nH9hHtR8cvc/hqdefault.jpg"
+         alt="YouTube Thumbnail"
+         style="width:100%; border-radius:10px; cursor:pointer;"><br>
+
+</a>
+              <div class="gallery-overlay"><i class="fa fa-play"></i></div>
+              <div class="gallery-label">
+                <span class="small-cap" style="font-size:0.65rem;">Roto Scoping</span>
+                <div style="font-weight:600;"></div>
+              </div>
+            </div>
+			  <a href="https://youtu.be/nH9hHtR8cvc">Link</a>
+          </div>
+         <div class="col-md-6 col-lg-4 reveal">
+            <div class="gallery-item">
+              <a href="https://youtu.be/Pg0d443f9Qc" target="_blank" title="Open YouTube" style="display:block;">
+    <img src="https://img.youtube.com/vi/Pg0d443f9Qc/hqdefault.jpg"
+         alt="YouTube Thumbnail"
+         style="width:100%; border-radius:10px; cursor:pointer;"><br>
+
+</a>
+              <div class="gallery-overlay"><i class="fa fa-play"></i></div>
+              <div class="gallery-label">
+                <span class="small-cap" style="font-size:0.65rem;">Logo Animation</span>
+                <div style="font-weight:600;"></div>
+              </div>
+            </div>
+			  <a href="https://youtu.be/Pg0d443f9Qc">Link</a>
+          </div>
+      <div class="col-md-6 col-lg-4 reveal">
+            <div class="gallery-item">
+              <a href="https://www.behance.net/gallery/240846185/2D-Animation/modules/1387851593" target="_blank" title="Open Behance" style="display:block;">
+    <img src="Images/Screenshot 2026-05-29 130738.png"
+         alt="Behance Thumbnail"
+         style="width:100%; border-radius:10px; cursor:pointer;"><br>
+
+</a>
+              <div class="gallery-overlay"><i class="fa fa-play"></i></div>
+              <div class="gallery-label">
+                <span class="small-cap" style="font-size:0.65rem;">Coin Animation</span>
+                <div style="font-weight:600;"></div>
+              </div>
+            </div>
+			  <a href="https://www.behance.net/gallery/240846185/2D-Animation/modules/1387851593">Link</a>
+          </div> 
+         <div class="col-md-6 col-lg-4 reveal">
+            <div class="gallery-item">
+              <a href="https://www.behance.net/gallery/240846185/2D-Animation/modules/1387851585" target="_blank" title="Open Behance" style="display:block;">
+    <img src="Images/Screenshot 2026-05-29 130146.png"
+         alt="Behance Thumbnail"
+         style="width:100%; border-radius:10px; cursor:pointer;"><br>
+
+</a>
+              <div class="gallery-overlay"><i class="fa fa-play"></i></div>
+              <div class="gallery-label">
+                <span class="small-cap" style="font-size:0.65rem;">Eye Animation</span>
+                <div style="font-weight:600;"></div>
+              </div>
+            </div>
+			  <a href="https://www.behance.net/gallery/240846185/2D-Animation/modules/1387851585">Link</a>
+          </div> 
+    
+      <div class="col-md-6 col-lg-4 reveal">
+            <div class="gallery-item">
+              <a href="https://www.behance.net/gallery/240846185/2D-Animation/modules/1387851587" target="_blank" title="Open Behance" style="display:block;">
+    <img src="Images/Screenshot 2026-05-29 132023.png"
+         alt="Behance Thumbnail"
+         style="width:100%; border-radius:10px; cursor:pointer;"><br>
+
+</a>
+              <div class="gallery-overlay"><i class="fa fa-play"></i></div>
+              <div class="gallery-label">
+                <span class="small-cap" style="font-size:0.65rem;">Pendulum</span>
+                <div style="font-weight:600;"></div>
+              </div>
+            </div>
+			  <a href="https://www.behance.net/gallery/240846185/2D-Animation/modules/1387851587">Link</a>
+          </div> 
+     <div class="col-md-6 col-lg-4 reveal">
+            <div class="gallery-item">
+              <a href="https://www.behance.net/gallery/240846185/2D-Animation/modules/1387851589" target="_blank" title="Open Behance" style="display:block;">
+    <img src="Images/Screenshot 2026-05-29 132634.png"
+         alt="Behance Thumbnail"
+         style="width:100%; border-radius:10px; cursor:pointer;"><br>
+
+</a>
+              <div class="gallery-overlay"><i class="fa fa-play"></i></div>
+              <div class="gallery-label">
+                <span class="small-cap" style="font-size:0.65rem;">Butterfly Animation</span>
+                <div style="font-weight:600;"></div>
+              </div>
+            </div>
+			  <a href="https://www.behance.net/gallery/240846185/2D-Animation/modules/1387851589">Link</a>
+          </div> 
+    
+    </div><!-- /tab-content -->
+  </div>
+</section>
+
+<!-- ═══════════════════════ TESTIMONIALS ════════════════════ -->
+<section class="section-pad bg-dark2">
+  <div class="container">
+    <div class="text-center mb-5 reveal">
+      <p class="small-cap">Client Feedback</p>
+      <h2 class="section-title">Testimonials</h2>
+      <div class="cyan-line center"></div>
+    </div>
+
+    <div class="row g-4">
+
+      <div class="col-md-4 reveal">
+        <div class="testi-card">
+          <div class="quote-icon"><i class="fa fa-quote-left"></i></div>
+          <div class="stars">
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+          </div>
+          <p>"Tarandeep delivered an outstanding logo for ABCD Brand. His understanding of brand identity and modern design trends is truly impressive for someone at this stage of their career."</p>
+          <div class="testi-author">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&q=80" alt="Client" class="testi-avatar" />
+            <div>
+              <div class="testi-name">Rahul Sharma</div>
+              <div class="testi-role">Founder, ABCD Brand</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 reveal">
+        <div class="testi-card">
+          <div class="quote-icon"><i class="fa fa-quote-left"></i></div>
+          <div class="stars">
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+          </div>
+          <p>"The motion graphics work was absolutely cinematic. Tarandeep has a natural sense for timing, visual rhythm, and storytelling through movement. Highly recommended!"</p>
+          <div class="testi-author">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80" alt="Client" class="testi-avatar" />
+            <div>
+              <div class="testi-name">Priya Mehta</div>
+              <div class="testi-role">Content Creator</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 reveal">
+        <div class="testi-card">
+          <div class="quote-icon"><i class="fa fa-quote-left"></i></div>
+          <div class="stars">
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-stroke"></i>
+          </div>
+          <p>"Professional, creative, and delivers on time. The edited promotional video exceeded our expectations. The color grading and transitions were perfectly executed."</p>
+          <div class="testi-author">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80" alt="Client" class="testi-avatar" />
+            <div>
+              <div class="testi-name">Amit Verma</div>
+              <div class="testi-role">Marketing Manager</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ CTA ═══════════════════════════════ -->
+<section class="section-pad bg-dark3">
+  <div class="container">
+    <div class="text-center reveal">
+      <p class="small-cap">Start a Project</p>
+      <h2 class="section-title mb-3">Have a Project in <span class="text-cyan">Mind?</span></h2>
+      <p style="color:var(--text-muted);max-width:480px;margin:0 auto 32px;">
+        Let's discuss your vision and create something visually remarkable together.
+      </p>
+      <a href="contact.html" class="btn-cyan"><span>Let's Work Together <i class="fa fa-arrow-right ms-1"></i></span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ FOOTER ═══════════════════════════ -->
+<footer>
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <div class="footer-brand">TARANDEEP SINGH<span>&nbsp;</span></div>
+        <p class="mb-3">Motion Graphics &amp; VFX Artist crafting cinematic visuals with the Adobe Creative Suite.</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/tarandeep.__.singh?igsh=aWdueTYxMnNzbHg1"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.behance.net/tarandeepsingh50"><i class="fab fa-behance-square"></i></a>
+          <a href="https://youtube.com/@taranvfxstudio?si=Hj_5xMHh6Hg3xLQs"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.linkedin.com/in/tarandeep-singh-undefined-9b086539a/"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <h6 style="font-family:var(--font-head);font-size:0.8rem;letter-spacing:0.12em;color:var(--white);margin-bottom:0px;">QUICK LINKS</h6>
+        <ul class="list-unstyled" style="font-size:0.9rem;">
+          <li class="mb-2"><a href="index.html" style="color:var(--text-muted)"><i class="fa fa-chevron-right me-2" style="font-size:0.65rem;color:var(--cyan)"></i>Home</a></li>
+          <li class="mb-2"><a href="about.html" style="color:var(--text-muted)"><i class="fa fa-chevron-right me-2" style="font-size:0.65rem;color:var(--cyan)"></i>About</a></li>
+          <li class="mb-2"><a href="portfolio.html" style="color:var(--text-muted)"><i class="fa fa-chevron-right me-2" style="font-size:0.65rem;color:var(--cyan)"></i>Portfolio</a></li>
+          <li class="mb-2"><a href="contact.html" style="color:var(--text-muted)"><i class="fa fa-chevron-right me-2" style="font-size:0.65rem;color:var(--cyan)"></i>Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <h6 style="font-family:var(--font-head);font-size:0.8rem;letter-spacing:0.12em;color:var(--white);margin-bottom:18px;">CONTACT INFO</h6>
+        <p class="mb-2" style="font-size:0.9rem;color:var(--text-muted);"><i class="fa fa-envelope me-2 text-cyan"></i>tarandeepsinghbagga68@gmail.com</p>
+        <p class="mb-2" style="font-size:0.9rem;color:var(--text-muted);"><i class="fa fa-map-marker-alt me-2 text-cyan"></i>Delhi,India</p>
+        <p style="font-size:0.9rem;color:var(--text-muted);"><i class="fa fa-briefcase me-2 text-cyan"></i>Available for Freelance</p>
+      </div>
+    </div>
+    <div class="footer-copy text-center">
+      <p class="mb-0">&copy; 2026 Mr. Tarandeep Singh. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+<script type="text/javascript">
+swfobject.registerObject("FLVPlayer");
+</script>
+</body>
+</html>
